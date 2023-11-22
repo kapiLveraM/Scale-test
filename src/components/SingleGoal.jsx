@@ -19,8 +19,7 @@ const SingleGoal = () => {
                   src={goalImg}
                   alt="phone_img"
                 />
-                {/* <img className="position-absolute shadow_position_image animate_image_buble" src="./assets/image/svg/shadow.svg"
-              alt="shadow"> */}
+              
               </div>
             </div>
 
@@ -29,12 +28,12 @@ const SingleGoal = () => {
           text-center text-xl-start mx-auto me-xl-0 "
             >
               <span className="blue_line d-xl-block d-none"></span>
-              <h2 className="font-lg fw_medium custom_light_black mb-0 custom_heading_lh opacity70">
+              <h2 className="font-lg fw_medium custom_light_black mb-0 custom_heading_lh opacity_07">
                 We Started With A Single Goal: To Become The Trusted Source For
                 All Things Smartphone In The International Re-Commerce World
               </h2>
               <div>
-                <p className="font-sm fw-normal custom_light_black mb-0 pt-md-3 pt-2 mt-sm-1 mt-md-0 custom_lh opacity70">
+                <p className="font-sm fw-normal custom_light_black mb-0 pt-md-3 pt-2 mt-sm-1 mt-md-0 custom_lh opacity_07">
                   Our adventure started in 2010 when we founded SCal Mobile, a
                   tech solutions company focused on smartphones. It didn’t take
                   us long to understand the US borders could not fit us, and
@@ -42,7 +41,7 @@ const SingleGoal = () => {
                   into an international industry leader, operating in the
                   Americas, Europe, Asia and the Middle East.{" "}
                 </p>
-                <p className="font-sm fw-normal custom_light_black mb-0 pt-2 custom_lh opacity70">
+                <p className="font-sm fw-normal custom_light_black mb-0 pt-2 custom_lh opacity_07">
                   From our inception, we have devoted our business to providing
                   clients with premium devices and services that change the
                   norms in the smartphone re-commerce industry, moving into a

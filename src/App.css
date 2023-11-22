@@ -186,6 +186,9 @@ body {
 .hero_preant{
   min-height: calc( 100vh - 100px ) !important;
 }
+.hero_content_heading {
+  max-width: 790px ;
+}
 /* -----------------------------------COMMON-CSS-------------------------- */
 .common_lh{
   line-height: 27px;
@@ -226,7 +229,7 @@ body {
   font-size: var(--font-xs);
   color: #fafafa;
   font-weight: 400;
-  padding: 15px 25px;
+  padding: 15px 31px;
   border-radius: 6px;
   background: -o-linear-gradient(313.61deg, #0076be 3.65%, #48bf91 89.63%);
   background: linear-gradient(136.39deg, #0076be 3.65%, #48bf91 89.63%);
@@ -250,9 +253,7 @@ body {
 .card_heading_lh{
   line-height: 30px;
 }
-.hero_content_heading{
-  max-width: 664px;
-}
+
 .custom_heading_lh {
   line-height: 33px;
 }
@@ -308,17 +309,13 @@ min-height: 208px;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 144px 0px;
+  padding: 144px 0 100px 0;
 }
 .services_para{
   max-width: 805px;
 }
-.Services_icons{
-  max-width: 111px;
-  min-height: 112px;
-}
-.Services_card{
 
+.Services_card{
   min-height: 458px;
   border-radius: 15.716px;
   padding: 0 20px;
@@ -358,6 +355,28 @@ background: rgba(255, 255, 255, 0.10);
 .slick-prev:hover:before {
   content: url("./assets/img/svg/left-hover-arrow.svg") !important;
 }
+.Services_card_para{
+  min-height: 182px;
+}
+.Services_icons_shadow{
+  
+  width: 111px;
+height: 22px;
+flex-shrink: 0;
+ background-color:  #FFF;
+opacity: 0.17;
+filter: blur(12px)
+}
+.Products_card_img_shadow{
+    position: absolute;
+    background: linear-gradient(136.39deg, #0076BE 3.65%, #48BF91 89.63%) !important;
+    opacity: 0.3;
+    filter: blur(12px);
+    width: 111px;
+    height: 22px;
+    left: 50%;
+    transform: translate(-54px, 10px);
+}
 /* ---------------------------------SHADOW--POSITION---------------- */
 .shadow_position {
   background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
@@ -391,9 +410,9 @@ background: rgba(255, 255, 255, 0.10);
     background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
     background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
     width: 356px;
-    opacity: 0.3;
-    -webkit-filter: blur(50px);
-            filter: blur(50px);
+    opacity: 0.6;
+    -webkit-filter: blur(245px);
+            filter: blur(245px);
     height: 477px;
     right: -155px;
     bottom: -100px;
@@ -402,12 +421,12 @@ background: rgba(255, 255, 255, 0.10);
 }
 .contact_img_shadow{
   position: absolute;
-  background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
-  background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
+  background: -o-linear-gradient(309.31deg, #48bf91 11.95%, #8bd9c7 83.25%);
+  background: linear-gradient(140.69deg, #48bf91 11.95%, #8bd9c7 83.25%);
   width: 405px;
-  opacity: 0.3;
-  -webkit-filter: blur(50px);
-          filter: blur(50px);
+  opacity: 0.6;
+  -webkit-filter: blur(245px);
+          filter: blur(245px);
   height: 384px;
   right: -40px;
   bottom: -100px;
@@ -417,10 +436,10 @@ background: rgba(255, 255, 255, 0.10);
     position: absolute;
     background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
     background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
-    width: 496px;
-    opacity: 0.3;
-    -webkit-filter: blur(50px);
-            filter: blur(50px);
+    width: 384px;
+    opacity: 0.6;
+    -webkit-filter: blur(245px);
+            filter: blur(245px);
     height: 384px;
     bottom: 48%;
     z-index: -1;
@@ -433,8 +452,8 @@ background: rgba(255, 255, 255, 0.10);
    width: 384px;
 height: 384px;
     opacity: 0.6;
-    -webkit-filter: blur(245px);
-            filter: blur(245px);
+    -webkit-filter: blur(200px);
+            filter: blur(200px);
     bottom: -30%;
     z-index: -1;
     right: -20%;
@@ -445,7 +464,7 @@ height: 384px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 120px 0px;
+  padding: 100px 0px;
 }
 .roadmap_img1{
   max-width: 408px !important;
@@ -666,7 +685,9 @@ select {
     -ms-transform: translateX(48px);
         transform: translateX(48px);
 }
-
+.input_padding{
+  padding: 14px;
+}
 /* ===============Footer Css here ============================ */
 .footer_bg {
   background-image: url("../src/assets/img/webp/footer_background.webp") !important;
@@ -703,26 +724,33 @@ select {
 min-height: 208px;
 }
  .about_phone_custom_class {
-    max-width: 300px !important;
-    max-height: 340px !important;
+  width: 508px !important;
+    max-height: 457px !important;
   }
- @media (max-width: 1799.98px){
-  .faq_mobile_img {
-    left: -25%;
-    top: 79px;
-    position: absolute;
+.Arrow_select{
+  top: 25px;
+    right: 16px;
 }
- }
 @media (min-width: 1200px) and (max-width: 1599.98px) {
   .custom_container {
     max-width: 1140px !important;
   }
   
 }
+
+@media (max-width: 1799.98px){
+      .faq_mobile_img {
+    left: -25% ;
+    top: 79px;
+    position: absolute;
+}
+ 
+}
+
 @media (max-width: 1399.98px){
 
       .faq_mobile_img {
-    left: -23%;
+    left: -30% !important;
     top: 79px;
     position: absolute;
 }
@@ -740,10 +768,14 @@ min-height: 208px;
 }
 }
 @media (max-width: 1199.98px){
+  .Services_bg{
+    padding: 80px 0 144px 0 ;
+  }
   .Products_card{
     min-height: 450px;
     padding: 20px 15px;
   }
+
        .faq_mobile_img {
     left: -15%;
     top: 79px;
@@ -756,9 +788,7 @@ min-height: 208px;
                 transform: translateX(0);
 
   }
-  .Product_card_para{
-min-height: unset;
-}
+
 .Products_card:hover{
  -webkit-transform: translateY(-20px);
      -ms-transform: translateY(-20px);
@@ -766,6 +796,9 @@ min-height: unset;
  -webkit-transition: all 300ms ease-in-out;
  -o-transition: all 300ms ease-in-out;
  transition: all 300ms ease-in-out;
+}
+.Product_card_para{
+  min-height: 0;
 }
   .roadmap_line::after {
     position: absolute;
@@ -804,7 +837,7 @@ min-height: unset;
  
 }
 .Services_bg{
-    padding:70px 0 150px  0 !important;
+    padding:50px 0 150px  0 !important;
   }
 .slick-next {
     right: 40% !important;
@@ -812,10 +845,26 @@ min-height: unset;
 .slick-prev {
     left: 40% !important;
 }
+ .Products_card{
+    /* min-height: 514px !important; */
+    padding: 20px 15px;
+  }
+    .Product_card_para{
+min-height: 208px;
 }
-
+.Services_card_para {
+    min-height: 182px;
+}
+.slick-next {
+    right: 45% !important;
+}
+}
+.overflow_hidden{
+    overflow: hidden !important;
+    height: 100vh;
+  }
 @media (max-width: 767.98px) {
-    
+ 
     .custom_padding_left {
     padding-left: 12px !important;
   }
@@ -880,7 +929,14 @@ min-height: unset;
   }
 }
 @media (max-width: 575.98px) {
-
+  .svg_custam{
+    width: 30px !important;
+    height: 30px !important;
+  }
+ .Products_card{
+    min-height: unset !important;
+    padding: 20px 15px;
+  }
   .nav_shadow {
     max-width: 709px;
     top: -260px;
@@ -893,11 +949,26 @@ min-height: unset;
 .Services_card{
   min-height: 400px;
 }
+.footer-logo-img {
+    max-width: 90px !important;
+    height: 100px !important;
+}
 .slick-next {
     right: 40% !important;
 }
 .slick-prev {
     left: 30% !important;
+}
+ .about_phone_custom_class {
+  max-width: 100% !important;
+    max-height: 320px !important;
+  }
+  .logo_max_width{
+    max-width: 60px !important;
+    padding-bottom: 10px;
+  }
+  .sub_para {
+    line-height: 20px;
 }
 }
 @media (min-width: 1200px) {
@@ -915,6 +986,7 @@ min-height: unset;
     margin: 0 auto !important;
     padding: 0 12px !important;
   }
+ 
 }
 @media (min-width: 1600px) {
   .roadmap_line::after {

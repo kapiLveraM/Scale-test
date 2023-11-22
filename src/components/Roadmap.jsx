@@ -5,13 +5,13 @@ import RoadmaImg3 from "../assets/img/webp/roadmap-img3.webp"
 const Roadmap = () => {
   return (
     <>
-      <div id="choose-us" className="roadmap_bg bg_cover position-relative ">
-        <div className="container custom_container pb-md-5 mt-md-5">
-          <div className="mb-5 pt-xxl-5  text-center ">
-            <h2 className="fw-bold font-xl text-white position-relative z_20">
+      <div id="choose-us" className="roadmap_bg bg_cover position-relative">
+        <div className="container custom_container pb-md-5">
+          <div className="mb-5 text-center ">
+            <h2 className="fw-bold font-xl text-white position-relative z_20 pt-3">
               Why Choose Us?
             </h2>
-            <p className="sub_para opacity_07 text-white mb-2 pe-md-1">
+            <p className="sub_para opacity_07 text-white  pe-md-1 p">
               Here are a few good reasons to make SCal Mobile your top choice
             </p>
           </div>

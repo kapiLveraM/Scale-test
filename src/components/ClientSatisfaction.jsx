@@ -4,7 +4,7 @@ const ClientSatisfaction = () => {
   return (
     <>
      <div
-    className="mt-5 mb-xl-5 mb-md-5 mb-sm-5 mb-5 pb-sm-4 pb-md-5 pt-md-5 pb-xl-5 pt-xl-4 mt-sm-5 pt-sm-4 mt- position-relative">
+    className="mt-5 mb-xl-5 mb-md-5 mb-sm-5 mb-5 pb-sm-4 pb-md-5 pt-md-5 pb-xl-0 pt-xl-4 mt-sm-5 pt-sm-4 mt- position-relative">
     <div className="shadow_position1"></div>
     <div className="mb-xl-5">
       <div className="container about_custom_container">
@@ -18,13 +18,13 @@ const ClientSatisfaction = () => {
           <div className="col-xl-6 ps-xl-0  custom_padding_left position-relative custom_text_maxW
             text-center text-xl-start mx-auto">
             <span className="blue_line d-xl-block d-none " ></span>
-            <h2 className="font-lg fw_medium custom_light_black mb-0 custom_heading_lh opacity70">We Stand By Our Core
+            <h2 className="font-lg fw_medium custom_light_black mb-0 custom_heading_lh opacity_07">We Stand By Our Core
               Values
               Of
               Integrity & Client
               Satisfaction</h2>
             <div >
-              <p className="font-sm fw-normal custom_light_black mb-0 pt-md-3 pt-2 mt-sm-1 mt-md-0  custom_lh opacity70">
+              <p className="font-sm fw-normal custom_light_black mb-0 pt-md-3 pt-2 mt-sm-1 mt-md-0  custom_lh opacity_07">
                 Everything we do stems from
                 our
                 desire to reach

@@ -4,13 +4,13 @@ const About = () => {
   return (
     <>
       <div
-        className="pt-md-5 mt-sm-5 mt-5 mt-md-5 pt-sm-4 position-relative"
+        className="pt-md-5 mt-5  pt-sm-4 position-relative"
         id="about-us"
       >
         <div className="shadow_position"></div>
         <div className="container about_custom_container">
-          <div className="about_content_box text-center mx-auto mt-xl-5 pt-xl-2">
-            <p className="mb-0 font-md fw-normal text-black opacity90">
+          <div className="about_content_box text-center mx-auto ">
+            <p className="mb-0 font-base fw-normal text-black opacity90">
               About Us
             </p>
             <h2 className="mb-0 font-xl fw_medium custom_line_hight custom_letter_spacing text-black mt-1 mb-2 pb-1">

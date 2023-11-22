@@ -16,11 +16,11 @@ const Header = () => {
   return (
     <div>
       <div className="py-sm-2 position-relative nav_bottom_border overflow-hidden">
-        <div className=" container custom_container">
+        <div className="container custom_container">
           <div>
             <div className="w-100">
               <div className="d-flex justify-content-between align-items-center">
-                <a href="#" className=" position-relative index_20">
+                <a href="#" className=" position-relative index_20 logo_max_width">
                   <img
                     src={logo}
                     alt="logo nav"

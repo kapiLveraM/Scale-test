@@ -11,8 +11,9 @@ const FaqSection = () => {
         <div className="fsq_shadow"></div>
         <div className="container custom_container pt-sm-4 pt-lg-5 mt-xl-4">
           <div className="d-flex flex-column-reverse flex-lg-row ">
-            <div className="col-12 col-lg-6 mt-5 mt-lg-0 position-relative">
+            <div className="col-12 col-lg-6 mt-3 mt-sm-5 mt-lg-0 position-relative">
               <img
+              
                 className="faq_mobile_img  w-100 d-none d-lg-flex"
                 src={faqMobileImg}
                 alt="faq-mobile-image"
