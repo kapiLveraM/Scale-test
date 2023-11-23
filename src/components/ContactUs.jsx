@@ -113,12 +113,12 @@ const ContactUs = () => {
                       <select
                         name="B2B"
                         id="B2B"
-                        className="contact_us_input w-100 w-normal font-xs  text-black opacity_07 input_padding"
+                        className="contact_us_input w-100 w-normal font-xs  text-black opacity_07 input_padding crsal_pointer_on"
                       >
                         <option value="B2B">B2B</option>
-                        <option value="B2B">B2B</option>
-                        <option value="B2B">B2B</option>
-                        <option value="B2B">B2B</option>
+                        <option value="B2B">B3B</option>
+                        <option value="B2B">B4B</option>
+                        <option value="B2B">B5B</option>
                       </select>
 
                       <img
@@ -137,12 +137,12 @@ const ContactUs = () => {
                         <select
                           name="B2B"
                           id="B2B"
-                          className="contact_us_input w-100 w-normal font-xs mt-2 text-black opacity_07 input_padding"
+                          className="contact_us_input w-100 w-normal font-xs mt-2 text-black opacity_07 input_padding crsal_pointer_on"
                         >
                           <option value="B2B"></option>
                           <option value="B2B">B2B</option>
-                          <option value="B2B">B2B</option>
-                          <option value="B2B">B2B</option>
+                          <option value="B2B">B3B</option>
+                          <option value="B2B">B4B</option>
                         </select>
 
                         <img
