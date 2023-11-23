@@ -12,19 +12,35 @@ import ClientSatisfaction from "./components/ClientSatisfaction";
 import Roadmap from "./components/Roadmap";
 import Footer from "./components/Footer";
 import FaqAndContactUs from "./components/FaqAndContactUs";
+import BackToTop from "./components/BackToTop";
+import { useEffect, useState } from "react";
+import PreLoader from "./components/Preloader";
+
 function App() {
+   const [loading, setLoading] = useState(true);
+   useEffect(() => {
+     setTimeout(() => {
+       setLoading(false);
+       document.body.classList.remove("fix-screen");
+       // document.body.classList.add("overflow_x_hidden");
+     }, 2400);
+   }, []);
   return (
     <>
-      <Hero />
-      <Products />
-      <Services />
-      <About />
-      <SingleGoal />
-      <ScalMobile />
-      <ClientSatisfaction />
-      <Roadmap />
-      <FaqAndContactUs />
-      <Footer />
+    {loading && <PreLoader/>}
+      <div>
+        <Hero />
+        <Products />
+        <Services />
+        <About />
+        <SingleGoal />
+        <ScalMobile />
+        <ClientSatisfaction />
+        <Roadmap />
+        <FaqAndContactUs />
+        <Footer />
+        <BackToTop />
+      </div>
     </>
   );
 }

@@ -73,14 +73,15 @@ const Services = () => {
                             <div className="Services_icons_shadow position-absolute"></div>
                           </div>
                         </div>
+                        <div className="Services_heading_hight">
+                          <i className="fw-normal font-xs text-white  d-inline-block opacity_07 mt-4">
+                            {ServiceCard.heading}
+                          </i>
 
-                        <i className="fw-normal font-xs text-white  d-inline-block opacity_07 mt-4">
-                          {ServiceCard.heading}
-                        </i>
-
-                        <h3 className="font-sm fw-bold text-white mb-3">
-                          {ServiceCard.heading_2}
-                        </h3>
+                          <h3 className="font-sm fw-bold text-white mb-3">
+                            {ServiceCard.heading_2}
+                          </h3>
+                        </div>
                         <p className="sub_para mb-0 text-white opacity_07 Services_card_para">
                           {ServiceCard.para}
                         </p>

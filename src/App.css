@@ -421,8 +421,8 @@ filter: blur(12px)
 }
 .contact_img_shadow{
   position: absolute;
-  background: -o-linear-gradient(309.31deg, #48bf91 11.95%, #8bd9c7 83.25%);
-  background: linear-gradient(140.69deg, #48bf91 11.95%, #8bd9c7 83.25%);
+  background: -o-linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
+  background:  linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
   width: 405px;
   opacity: 0.6;
   -webkit-filter: blur(245px);
@@ -430,7 +430,7 @@ filter: blur(12px)
   height: 384px;
   right: -40px;
   bottom: -100px;
-  z-index: -1; 
+  z-index: -2; 
 }
 .Faq_and_contactUs_shadow{
     position: absolute;
@@ -464,7 +464,8 @@ height: 384px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 100px 0px;
+  padding: 149px 0px !important;
+  margin-top: 135px !important;
 }
 .roadmap_img1{
   max-width: 408px !important;
@@ -582,12 +583,12 @@ max-width: 358px;
   padding: 0rem 0rem 1.25rem 0rem !important;
 }
 .fsq_shadow{
- background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
- background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
+ background: -o-linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
+ background:  linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
   width: 300px;
-  opacity: 0.3;
-  -webkit-filter: blur(50px);
-          filter: blur(50px);
+  opacity: 0.6;
+  -webkit-filter: blur(245px);
+          filter: blur(245px);
   height: 384px;
   right: -40px;
   top: 0;
@@ -688,6 +689,9 @@ select {
 .input_padding{
   padding: 14px;
 }
+.contact_us_margin{
+  margin-bottom: 176px !important;
+}
 /* ===============Footer Css here ============================ */
 .footer_bg {
   background-image: url("../src/assets/img/webp/footer_background.webp") !important;
@@ -716,9 +720,6 @@ select {
   opacity: 1 !important;
 }
 
-.roadmap_bg {
-    padding: 72px 0px !important;
-  }
 
   .Product_card_para{
 min-height: 208px;
@@ -731,6 +732,88 @@ min-height: 208px;
   top: 25px;
     right: 16px;
 }
+.Services_heading_hight{
+  min-height: 100px !important;
+}
+
+/* Back to top */
+.back-to-top {
+    position: fixed;
+    bottom: 3%;
+    right: 20px;
+    z-index: 9999;
+    font-size: var(--font-sm);
+    color: var(--white);
+    border: 1px solid var(--white);
+    background: linear-gradient(136deg, #0076BE 3.65%, #48BF91 89.63%);
+    box-shadow: 0px 4px 31px -8px #0CD974;
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.z_index {
+    z-index: 1;
+}
+/*------------- pre-loader------------------*/
+
+.fix-screen {
+    overflow: hidden;
+    height: 100vh;
+}
+.bg_main{
+  background-color: #FFF !important;
+}
+.loading {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100000000;
+      background-color: #FFF !important;
+
+}
+
+.loading_svg {
+    animation: zoomin 1.5s ease-in-out infinite;
+    width: 75%;
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+
+    0% {
+        transform: scale(1);
+    }
+}
+
 @media (min-width: 1200px) and (max-width: 1599.98px) {
   .custom_container {
     max-width: 1140px !important;
@@ -746,10 +829,17 @@ min-height: 208px;
 }
  
 }
-
+@media (max-width: 1540.98px){
+      .faq_mobile_img {
+    left: -30% !important;
+    top: 79px;
+    position: absolute;
+}
+ 
+}
 @media (max-width: 1399.98px){
 
-      .faq_mobile_img {
+    .faq_mobile_img {
     left: -30% !important;
     top: 79px;
     position: absolute;
@@ -824,7 +914,13 @@ min-height: 208px;
 .slick-prev {
     left: 45% !important;
 }
-
+.roadmap_bg {
+  padding:100px 0 !important;
+   margin-top: 50px !important;
+}
+.contact_us_margin{
+  margin-bottom: 100px !important;
+}
 }
 @media (max-width: 991.98px){
 .Products_card:hover{
@@ -869,14 +965,16 @@ min-height: 208px;
     padding-left: 12px !important;
   }
    .roadmap_bg {
-    padding: 48px 0px !important;
+    padding: 60px 0px !important;
   }
     .roadmap_line::after {
     left: 20px;
     top: 1% !important;
     height: 98% !important;
   }
-  
+  .contact_us_margin{
+  margin-bottom: 70px !important;
+}
   .nav_show {
     position: fixed;
     height: 0vh;

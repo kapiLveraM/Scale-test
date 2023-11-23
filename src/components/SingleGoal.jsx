@@ -1,5 +1,5 @@
 import React from 'react'
-import goalImg from "../assets/img/webp/goal-img.png";
+import goalImg from "../assets/img/png/goal-img.png";
 const SingleGoal = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const SingleGoal = () => {
                 <img
                   width="346px"
                   height="418px"
-                  className="about_phone_custom_class "
+                  className="about_phone_custom_class"
                   src={goalImg}
                   alt="phone_img"
                 />

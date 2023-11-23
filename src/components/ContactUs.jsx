@@ -9,7 +9,7 @@ const ContactUs = () => {
   return (
     <>
       <div
-        className="py-5 my-md-4 py-lg-0 py-xl-5 my-lg-0 my-xl-5 position-relative"
+        className="pt-5 mt-md-4 pt-lg-0 pt-xl-5 mt-lg-0 mt-xl-5 position-relative contact_us_margin"
         id="ContactUs"
       >
         <div className="contact_img_shadow"></div>
