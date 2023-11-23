@@ -1,5 +1,5 @@
 import React from 'react'
-import goalImg from "../assets/img/png/goal-img.png";
+import goalImg from "../assets/img/webp/goal-img.webp";
 const SingleGoal = () => {
   return (
     <>

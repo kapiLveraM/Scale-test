@@ -5,7 +5,7 @@ const Products = () => {
     <>
       <div
         id="products"
-        className="container custom_container text-center mt-5 mt-lg-0 mb-4 mb-sm-5 pb-xl-5 position-relative"
+        className="container custom_container text-center mt-5 mt-lg-0  position-relative"
       >
         <div className="products_shadow"></div>
         <h2 className="sub_heading  mb-4 pb-md-4">Products</h2>

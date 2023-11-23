@@ -305,11 +305,12 @@ min-height: 208px;
 
 /* -------------------------SERVICES--------------------- */
 .Services_bg {
-  background-image: url("./assets//img/png//slider-bg-img.png");
+  background-image: url("./assets//img/webp/slider-bg-img.webp");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   padding: 144px 0 100px 0;
+  margin-top: 156px;
 }
 .services_para{
   max-width: 805px;
@@ -407,8 +408,8 @@ filter: blur(12px)
 
 .shadow_position2 {
      position: absolute;
-    background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
-    background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
+    background: -o-linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
+    background: linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
     width: 356px;
     opacity: 0.6;
     -webkit-filter: blur(245px);
@@ -434,8 +435,8 @@ filter: blur(12px)
 }
 .Faq_and_contactUs_shadow{
     position: absolute;
-    background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
-    background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
+    background: -o-linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
+    background: linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
     width: 384px;
     opacity: 0.6;
     -webkit-filter: blur(245px);
@@ -447,8 +448,8 @@ filter: blur(12px)
 }
 .products_shadow{
   position: absolute;
-    background: -o-linear-gradient(309.31deg, #48bf91 11.98%, #8bd9c7 83.25%);
-    background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
+    background: -o-linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
+    background:  linear-gradient(134deg, #0076BE 11.95%, #95D8EB 100%);
    width: 384px;
 height: 384px;
     opacity: 0.6;
@@ -862,6 +863,7 @@ min-height: 208px;
 @media (max-width: 1199.98px){
   .Services_bg{
     padding: 80px 0 144px 0 ;
+    margin-top: 120px;
   }
   .Products_card{
     min-height: 450px;
@@ -936,6 +938,7 @@ min-height: 208px;
 }
 .Services_bg{
     padding:50px 0 150px  0 !important;
+    margin-top: 100px !important;
   }
 .slick-next {
     right: 40% !important;
@@ -1026,6 +1029,9 @@ min-height: unset;
   .Products_card{
     min-height: unset;
     padding: 30px 15px;
+  }
+  .Services_bg{
+    margin-top: 50px !important;
   }
 }
 @media (max-width: 575.98px) {

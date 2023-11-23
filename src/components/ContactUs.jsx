@@ -1,5 +1,5 @@
 import React from 'react'
-import contactImg from "../assets/img/png/contactus-img.png"
+import contactImg from "../assets/img/webp/contactus-img.webp"
 // import React, { useState } from "react";
 import ArrowSelect from "../assets/img/png/Vector.png"
 

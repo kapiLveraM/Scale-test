@@ -46,7 +46,7 @@ const Services = () => {
   };
 
   return (  
-    <div className=" mt-2 mt-sm-5">
+    <div className=" mt-0">
       <div id="services" className="Services_bg">
         <div className="container custom_container text-center">
           <h2 className="sub_heading text-white">Services</h2>
