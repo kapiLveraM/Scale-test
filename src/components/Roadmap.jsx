@@ -8,7 +8,7 @@ const Roadmap = () => {
       <div id="choose-us" className="roadmap_bg bg_cover position-relative">
         <div className="container custom_container ">
           <div className="mb-lg-5 text-center ">
-            <h2 className="fw-bold font-xl text-white position-relative z_20">
+            <h2 className="fw_medium font-xl text-white position-relative z_20">
               Why Choose Us?
             </h2>
             <p className="sub_para opacity_07 text-white  pe-md-1 p">

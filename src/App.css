@@ -172,6 +172,9 @@ body {
 .index_minus_1 {
   z-index: -1;
 }
+.overflow_hidden_nav{
+  overflow-y: hidden !important;
+}
 .hero_center_image_set {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -203,9 +206,7 @@ body {
   font-weight: 500;
   line-height: 48px;
 }
-.overflow_hidden {
-  overflow: hidden !important;
-}
+
 .opacity_09 {
   opacity: 0.9 !important;
 }
@@ -1003,13 +1004,13 @@ min-height: 208px;
     z-index: 10;
     top: 0;
   }
-  .nav_show.showw {
+  .nav_show.show {
     left: 0%;
   }
   .nav_property {
     padding: 7px 20px 6px 16px;
   }
-  .overflow_hidden {
+  .overflow_hidden_nav {
     overflow: hidden !important;
   }
   .common_btn {
