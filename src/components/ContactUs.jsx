@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <>
       <div
-        className="pt-5 mt-md-4 pt-lg-0 pt-xl-5 mt-lg-0 mt-xl-5 position-relative contact_us_margin"
+        className="pt-5 mt-md-4 pt-lg-0 pt-xl-5 mt-lg-0 mt-xl-5 position-relative contact_us_margin contact_input"
         id="ContactUs"
       >
         <div className="contact_img_shadow"></div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
           </div>
           <div className="d-flex flex-column-reverse flex-lg-row pt-md-4 mt-5 ">
             <div className="col-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
-              <form >
+              <form>
                 <div className="row">
                   <div className="col-12 col-sm-6">
                     <label className="fw-normal font-xs text-black opacity_07">
@@ -111,7 +111,7 @@ const ContactUs = () => {
                       <select
                         name="B2B"
                         id="B2B"
-                        className="contact_us_input w-100 w-normal font-xs  text-black opacity_07 input_padding crsal_pointer_on"
+                        className="contact_us_input w-100 w-normal font-xs  text-black opacity_07 input_padding cursor_pointer_on"
                       >
                         <option value="B2B">B2B</option>
                         <option value="B2B">B3B</option>
@@ -135,7 +135,7 @@ const ContactUs = () => {
                         <select
                           name="B2B"
                           id="B2B"
-                          className="contact_us_input w-100 w-normal font-xs mt-2 text-black opacity_07 input_padding crsal_pointer_on"
+                          className="contact_us_input w-100 w-normal font-xs mt-2 text-black opacity_07 input_padding cursor_pointer_on"
                         >
                           <option value="B2B"></option>
                           <option value="B2B">B2B</option>

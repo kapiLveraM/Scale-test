@@ -45,8 +45,8 @@ const Services = () => {
     ],
   };
 
-  return (  
-    <div className=" mt-0">
+  return (
+    <div className=" mt-0 Services_slider">
       <div id="services" className="Services_bg">
         <div className="container custom_container text-center">
           <h2 className="sub_heading text-white">Services</h2>
@@ -55,7 +55,7 @@ const Services = () => {
             with you to personalize solutions to your specific requirements.
             Below are some of our commonly requested services.
           </p>
-          <div className=" mt-5 pt-2">
+          <div className=" mt-5 pt-2 ">
             <Slider {...ServiceSlider}>
               {ServicesData.map((ServiceCard) => {
                 return (

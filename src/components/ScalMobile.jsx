@@ -1,5 +1,5 @@
 import React from 'react'
-import ScalMobileImg from "../assets/img/webp/scal-img.webp"
+import scalMobileImg from "../assets/img/webp/scal-img.webp";
 const ScalMobile = () => {
   return (
     <>
@@ -36,7 +36,7 @@ const ScalMobile = () => {
                   width="266px"
                   height="439px"
                   className="about_phone1_custom_class w-100"
-                  src={ScalMobileImg}
+                  src={scalMobileImg}
                   alt="phone_img1"
                 />
               </div>
