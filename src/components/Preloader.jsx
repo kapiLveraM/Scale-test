@@ -6,7 +6,7 @@ const PreLoader = () => {
     <>
       <div className="loading bg-black d-flex justify-content-center align-items-center">
         <div>
-          <img className="loading_svg" src={pagelogo} />
+          <img className="loading_svg" src={pagelogo} alt="pagelogo" />
         </div>
       </div>
     </>

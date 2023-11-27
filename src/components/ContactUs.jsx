@@ -102,7 +102,7 @@ const ContactUs = () => {
                   </div>
                   <div className="col-12 col-sm-6 overflow-hidden">
                     <label
-                      for="cars"
+                     
                       className="fw-normal font-xs text-black opacity_07 d-block mb-1"
                     >
                       Company Type*
@@ -181,7 +181,7 @@ const ContactUs = () => {
                 <img
                   className="contact_us_mobile_img w-100"
                   src={contactImg}
-                  alt="mobile-image"
+                  alt="mobileImage"
                 />
               </div>
             </div>

@@ -20,7 +20,10 @@ if (window.innerWidth && NavShow) {
           <div>
             <div className="w-100">
               <div className="d-flex justify-content-between align-items-center">
-                <a href="#" className=" position-relative index_20 logo_max_width">
+                <a
+                  href="#https://bootstrap-common.web.app/"
+                  className=" position-relative index_20 logo_max_width"
+                >
                   <img
                     src={logo}
                     alt="logo nav"
@@ -62,7 +65,7 @@ if (window.innerWidth && NavShow) {
                     <li>
                       <div className="d-block d-md-none">
                         <div className="d-flex align-items-center">
-                          <button className="common_btn" href="#">
+                          <button className="common_btn" href="#Subscribe">
                             <span className="name-descripeion position-relative">
                               Subscribe
                             </span>
@@ -75,7 +78,11 @@ if (window.innerWidth && NavShow) {
                 </div>
                 <div className="d-none d-md-block">
                   <div className="d-flex align-items-center">
-                    <button className="common_btn" href="#" onClick={clickshow}>
+                    <button
+                      className="common_btn"
+                      href="#Contact"
+                      onClick={clickshow}
+                    >
                       <span className="name-descripeion position-relative">
                         Contact Us
                       </span>

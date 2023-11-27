@@ -10,7 +10,7 @@ const Footer = () => {
               <img
                 className="footer-logo-img"
                 src={logo}
-                alt="footer-logo-image"
+                alt="footerLogoImage"
               />
               <p className="font-xs text-white fw-normal opacity_07 pt-2 mt-1 mt-lg-0 pt-lg-4 mb-0  custom_heading_footer">
                 SCal Mobile is a U.S. tech solutions company that specializes in
@@ -23,7 +23,7 @@ const Footer = () => {
                   <ul className="ps-0 mb-0">
                     <li>
                       <a
-                        href="#"
+                        href="#Links"
                         className="text-decoration-none text-white fw-normal font-sm "
                       >
                         Links
@@ -75,7 +75,7 @@ const Footer = () => {
                   <ul className="ps-0 mb-0">
                     <li>
                       <a
-                        href="#"
+                        href="#Legal"
                         className="text-decoration-none text-white fw-normal font-sm"
                       >
                         Legal
@@ -83,7 +83,7 @@ const Footer = () => {
                     </li>
                     <li className="pt-2 mt-1">
                       <a
-                        href="#"
+                        href="#Vendor"
                         className="text-white fw-normal font-xs opacity_07 text-decoration-none footer_link_hover"
                       >
                         Vendor Code of Conduct
@@ -91,7 +91,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#Data"
                         className="text-white fw-normal font-xs opacity_07 text-decoration-none footer_link_hover"
                       >
                         Data Sanitization Policy
@@ -99,7 +99,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#Downstream"
                         className="text-white fw-normal font-xs opacity_07 text-decoration-none footer_link_hover"
                       >
                         Downstream Recycling Policy
@@ -107,7 +107,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#Environmental"
                         className="text-white fw-normal font-xs opacity_07 text-decoration-none footer_link_hover"
                       >
                         Environmental and Social Impact
@@ -115,7 +115,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#Policy"
                         className="text-white fw-normal font-xs opacity_07 text-decoration-none footer_link_hover"
                       >
                         QEH&S Policy
@@ -123,7 +123,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#Universal"
                         className="text-white fw-normal font-xs opacity_07 text-decoration-none footer_link_hover"
                       >
                         Universal Waste Policy

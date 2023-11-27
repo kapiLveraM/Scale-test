@@ -32,9 +32,7 @@ body {
 }
 
 /*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
-.color_light {
-  color: var(--color-light) !important;
-}
+
 
 .color_sky_blue {
   color: var(--color-sky-blue) !important;
@@ -655,7 +653,7 @@ input::-webkit-inner-spin-button {
   z-index: -1;
 }
 
-select {
+.contact_input select {
   display: block;
   width: 100%;
   font-size: 1em;
@@ -937,7 +935,6 @@ min-height: 208px;
     left: 40% !important;
 }
  .Products_card{
-    /* min-height: 514px !important; */
     padding: 20px 15px;
   }
     .Product_card_para{

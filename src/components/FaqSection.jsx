@@ -15,12 +15,12 @@ const FaqSection = () => {
               
                 className="faq_mobile_img  w-100 d-none d-lg-flex"
                 src={faqMobileImg}
-                alt="faq-mobile-image"
+                alt="faqMobileImage"
               />
               <img
                 className=" w-100 d-lg-none"
                 src={faqMobileImg2}
-                alt="faq-mobile-image2"
+                alt="faqMobileImage2"
               />
             </div>
             <div className="col-12 col-lg-6 ">
