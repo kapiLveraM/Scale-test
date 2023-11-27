@@ -68,7 +68,7 @@ const Services = () => {
                               width={91}
                               height={91}
                               src={ServiceCard.cardImg}
-                              alt="crad-icon"
+                              alt="card-icon"
                             />
                             <div className="Services_icons_shadow position-absolute"></div>
                           </div>

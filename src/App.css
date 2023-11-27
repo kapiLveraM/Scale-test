@@ -178,7 +178,7 @@ body {
 .max_paragraph_hero{
   max-width: 856px;
 }
-.hero_preant{
+.hero_parent{
   min-height: calc( 100vh - 100px ) !important;
 }
 .hero_content_heading {

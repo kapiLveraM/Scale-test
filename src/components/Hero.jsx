@@ -10,7 +10,10 @@ const Hero = () => {
     <>
       <div>
         <Header />
-        <div id="home" className=" pt-5 position-relative hero_preant d-flex justify-content-center align-items-center">
+        <div
+          id="home"
+          className=" pt-5 position-relative hero_parent d-flex justify-content-center align-items-center"
+        >
           <div className="position-absolute nav_shadow">
             <img src={navShadow} alt="navShadow" />
           </div>

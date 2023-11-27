@@ -1,6 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import faqMobileImg from "../assets/img/webp/FaqMobileImg.webp";
 import faqMobileImg2 from "../assets/img/webp/FaqMobileImg2.webp";
 const FaqSection = () => {

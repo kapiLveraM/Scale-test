@@ -5,7 +5,7 @@ import RoadmaImg3 from "../assets/img/webp/roadmap-img3.webp"
 const Roadmap = () => {
   return (
     <>
-      <div id="choose-us" className="roadmap_bg bg_cover position-relative">
+      <div id="choose-us" className="roadmap_bg  position-relative">
         <div className="container custom_container ">
           <div className="mb-lg-5 text-center ">
             <h2 className="fw_medium font-xl text-white position-relative z_20">
