@@ -12,7 +12,7 @@ const Footer = () => {
                 src={logo}
                 alt="footer-logo-image"
               />
-              <p className="font-xs text-white fw-normal opacity_07 pt-2 mt-1 mt-lg-0 pt-lg-4 mb-0 mw_303">
+              <p className="font-xs text-white fw-normal opacity_07 pt-2 mt-1 mt-lg-0 pt-lg-4 mb-0  custom_heading_footer">
                 SCal Mobile is a U.S. tech solutions company that specializes in
                 consumer electronics.
               </p>
