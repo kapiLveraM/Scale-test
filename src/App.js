@@ -23,7 +23,6 @@ function App() {
      setTimeout(() => {
        setLoading(false);
        document.body.classList.remove("fix-screen");
-       // document.body.classList.add("overflow_x_hidden");
      }, 2400);
    }, []);
   return (

@@ -55,14 +55,14 @@ const Services = () => {
             with you to personalize solutions to your specific requirements.
             Below are some of our commonly requested services.
           </p>
-          <div className=" mt-5 pt-2 ">
+          <div className=" mt-5 pt-2">
             <Slider {...ServiceSlider}>
               {ServicesData.map((ServiceCard) => {
                 return (
                   <div key={ServiceCard.id}>
                     <div className="Services_card d-flex justify-content-center align-items-center mx-1 mx-lg-3">
                       <div className="text-center">
-                        <div className=" d-flex justify-content-center">
+                        <div className="d-flex justify-content-center">
                           <div className=" position-relative">
                             <img
                               width={91}

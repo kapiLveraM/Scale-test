@@ -5,7 +5,7 @@ const FaqSection = () => {
   return (
     <>
       <div  className=" pt-3 pt-xl-5 mt-xl-5 position-relative" id="faqs">
-        <div className="fsq_shadow"></div>
+        <div className="faq_shadow"></div>
         <div className="container custom_container pt-sm-5 pt-lg-4 mt-xl-5">
           <div className="d-flex flex-column-reverse flex-lg-row mt-3">
             <div className="col-12 col-lg-6 mt-3 mt-sm-5 mt-lg-0 position-relative">
