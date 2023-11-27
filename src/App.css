@@ -156,7 +156,6 @@ body {
 /* ---------------------HERO SECTION CSS------------------------ */
 .hero_img {
   max-width: 904px;
-  /* min-height: 600px; */
 }
 .hero_side_shadow {
   bottom: -30%;
@@ -164,9 +163,7 @@ body {
 .index_minus_1 {
   z-index: -1;
 }
-.overflow_hidden_nav{
-  overflow-y: hidden !important;
-}
+
 .hero_center_image_set {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -199,21 +196,11 @@ body {
   line-height: 48px;
 }
 
-.opacity_09 {
-  opacity: 0.9 !important;
-}
 
 .opacity_07 {
   opacity: 0.7 !important;
 }
 
-.index_1 {
-  z-index: 1;
-}
-
-.index_5 {
-  z-index: 5;
-}
 .index_20{
   z-index: 20 !important;
 }
@@ -594,16 +581,7 @@ max-width: 358px;
   max-height: 500px !important;
   overflow: auto;
 }
-.scrollbar-style::-webkit-scrollbar {
-  border-radius: 10px !important;
-  background: transparent !important;
-  width: 4px !important;
-  height: 4px !important;
-}
-.scrollbar-style::-webkit-scrollbar-thumb {
-  border-radius: 10px !important;
-  background: #3dc2d3 !important;
-}
+
 /* ========================== CONTACT US CSS HERE ==================== */
 .contact_input input:focus-visible {
   outline: none !important;
@@ -754,9 +732,6 @@ min-height: 208px;
     -o-border-radius: 50%;
 }
 
-.z_index {
-    z-index: 1;
-}
 /*------------- pre-loader------------------*/
 
 .fix-screen {
@@ -997,9 +972,7 @@ min-height: 208px;
   .nav_property {
     padding: 7px 20px 6px 16px;
   }
-  .overflow_hidden_nav {
-    overflow: hidden !important;
-  }
+
   .common_btn {
     padding: 10px 20px !important;
   }
