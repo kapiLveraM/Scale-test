@@ -33,7 +33,7 @@ export const CrossIcon = () => {
     </svg>
   );
 };
-export const CompanyIcone = () => {
+export const CompanyIcon = () => {
   return (
     <svg
       width="12"

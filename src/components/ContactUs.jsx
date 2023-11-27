@@ -1,8 +1,6 @@
 import React from 'react'
 import contactImg from "../assets/img/webp/contactus-img.webp"
-// import React, { useState } from "react";
 import ArrowSelect from "../assets/img/png/Vector.png"
-
 const ContactUs = () => {
 
 
@@ -41,7 +39,7 @@ const ContactUs = () => {
           </div>
           <div className="d-flex flex-column-reverse flex-lg-row pt-md-4 mt-5 ">
             <div className="col-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
-              <form action="" onsubmit="handleSubmit(event)">
+              <form >
                 <div className="row">
                   <div className="col-12 col-sm-6">
                     <label className="fw-normal font-xs text-black opacity_07">

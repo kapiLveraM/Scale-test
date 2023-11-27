@@ -17,9 +17,6 @@ body {
   overflow-x: hidden !important;
 }
 
-.OverflowX_hidden {
-  overflow-x: hidden !important;
-}
 
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
 :root {
@@ -82,10 +79,7 @@ body {
   font-weight: 500 !important;
 }
 
-/*---------------------------- DEFINE-ALL = FONT-FAMILY---------------------------- */
-.ff_lato {
-  font-family: "Lato", sans-serif !important;
-}
+
 /*------------------------ DEFINE-ALL = @media----FONT SIZE-SET--------------------  */
 
 @media (max-width: 1199.98px) {
@@ -966,7 +960,11 @@ min-height: 208px;
     height: 100vh;
   }
 @media (max-width: 767.98px) {
- 
+  .overflow-y-hidden {
+    overflow: hidden !important;
+    height: 100vh !important;
+  }
+
     .custom_padding_left {
     padding-left: 12px !important;
   }

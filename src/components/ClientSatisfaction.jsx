@@ -6,7 +6,7 @@ const ClientSatisfaction = () => {
      <div
     className="mt-5 mb-xl-5 mb-md-5 mb-sm-5 mb-5 pb-sm-4 pb-md-5 pt-md-5 pb-xl-0 pt-xl-4 mt-sm-5 pt-sm-4 position-relative">
     <div className="shadow_position1"></div>
-    <div className="">
+    <div className=" mb-0">
       <div className="container about_custom_container">
         <div className="row  flex-column-reverse flex-xl-row align-items-center pt-xl-2">
           <div className="col-xl-6 mt-md-4 mt-4 mt-xl-0 d-flex justify-content-center about_mobile_image_padding_right">

@@ -38,7 +38,7 @@ const BackToTop = () => {
             width="20"
             height="20"
             fill="white"
-            class="bi bi-chevron-double-up"
+            className="bi bi-chevron-double-up"
             viewBox="0 0 16 16"
           >
             <path

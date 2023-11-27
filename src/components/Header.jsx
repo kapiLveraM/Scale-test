@@ -4,15 +4,15 @@ import logo from "../assets/img/svg/logo.svg";
 import { CrossIcon, MenuIcon } from "./common/Icons";
 
 const Header = () => {
-  const [NavShow, setNavShow] = useState(true);
-  function clickshow() {
-    setNavShow(!NavShow);
-  }
-  if (!NavShow) {
-    document.body.classList.add("overflow_hidden");
-  } else {
-    document.body.classList.remove("overflow_hidden");
-  }
+const [NavShow, setNavShow] = useState(true);
+function clickshow() {
+  setNavShow(!NavShow);
+}
+if (window.innerWidth && NavShow) {
+  document.body.classList.remove("overflow-y-hidden");
+} else if (!NavShow) {
+  document.body.classList.add("overflow-y-hidden");
+}
   return (
     <div>
       <div className="py-sm-2 position-relative nav_bottom_border overflow-hidden">
@@ -30,7 +30,7 @@ const Header = () => {
                 <div className="d-flex align-items-center">
                   <ul
                     className={`nav_show d-flex flex-md-row gap-2 flex-column align-items-center mb-0 p-0 flex-row z-3
-                      ${NavShow ? "" : "showw "}`}
+                      ${NavShow ? "" : "show "}`}
                   >
                     <li>
                       <a
